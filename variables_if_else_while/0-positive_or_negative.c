@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
-
+/*entry main point*/
 /* betty style doc for function main goes there */
 int main(void)
 {
@@ -13,16 +13,16 @@ int main(void)
 
     printf("here is number n ---/n");
     if(n > 0){
-        printf("%dis positive \n",n);
+        printf("%dis positive \n", n);
     }
 
     if (n == 0)
     {
-        printf("%dis zero \n",n);
+        printf("%dis zero \n", n);
     }
 
     if (n < 0){
-        printf ("%dis negative \n",n);
+        printf ("%dis negative \n", n);
     }
 
 
