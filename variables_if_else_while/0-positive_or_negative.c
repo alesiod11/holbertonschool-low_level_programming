@@ -19,7 +19,7 @@ int main(void)
     if (n > 0)
     {
         /* code */
-        printf("% dis positive\n", n);
+        printf("%d is positive\n", n);
     }
 
     if (n == 0)
