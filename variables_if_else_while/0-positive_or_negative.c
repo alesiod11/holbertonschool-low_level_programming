@@ -13,16 +13,16 @@ int main(void)
 
     printf("here is number n ---/n");
     if(n > 0){
-        printf("is positive \n,");
+        printf("%dis positive \n",n);
     }
 
     if (n == 0)
     {
-        printf("is zero \n,);
+        printf("%dis zero \n",n);
     }
 
     if (n < 0){
-        printf ("is negative \n,");
+        printf ("%dis negative \n",n);
     }
 
 
