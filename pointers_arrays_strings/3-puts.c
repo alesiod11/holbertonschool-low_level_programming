@@ -1,4 +1,4 @@
-#include "main.h" // Assuming _putchar is declared in main.h
+#include "main.h" 
 #include <stdio.h>
 
 /**
@@ -12,8 +12,8 @@ void _puts(char *str)
     l = 0;
     while (str[l] != '\0')
     {
-        _putchar(str[l]); // Call _putchar from main.h
+        _putchar(str[l]);
         l++;
     }
-    _putchar('\n'); // Call _putchar from main.h
+    _putchar('\n');
 }
