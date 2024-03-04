@@ -20,5 +20,7 @@
     while(str[idx] != '\0')
     {
         _putchar(str[idx]);
+        idx++;
     }
+        _putchar('\n');
  }
