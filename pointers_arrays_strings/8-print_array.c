@@ -1,9 +1,6 @@
 #include "main.h"
 #include "stdio.h"
-/**
- * puts_half -  print the second half of the string
- * @str: input string
- */
+
  void print_array(int *a, int n) 
 {
     int i;
