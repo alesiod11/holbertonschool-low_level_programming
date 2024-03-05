@@ -1,6 +1,6 @@
 #include "main.h"
 
-char *_memset(char *s, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n) // s is a pointer to the memory area to be filled.
 {
 	unsigned int i;
 
