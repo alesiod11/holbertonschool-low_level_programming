@@ -1,4 +1,4 @@
-#include "main.h" 
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -7,13 +7,13 @@
  */
 void _puts(char *str)
 {
-    int l;
+int l;
 
-    l = 0;
-    while (str[l] != '\0')
-    {
-        _putchar(str[l]);
-        l++;
-    }
-    _putchar('\n');
+l = 0;
+while (str[l] != '\0')
+{
+_putchar(str[l]);
+l++;
+}
+_putchar('\n');
 }
